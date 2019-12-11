@@ -44,7 +44,7 @@ public class EnemyScript : MonoBehaviour
 
         if (PlayerDistance < Radius)
         {
-            myNavMesh.transform.LookAt(new Vector3(playerTransform.position.x, 1, playerTransform.position.z));
+            myNavMesh.transform.LookAt(new Vector3( 0, playerTransform.position.x, 0));
             myNavMesh.destination = playerTransform.position;
         }
     }
