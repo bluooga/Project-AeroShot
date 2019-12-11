@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -521,30 +521,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1252538648}
     m_Modifications:
-    - target: {fileID: 1198366149739573546, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198366149739573546, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1198366149739573546, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.05493498
-      objectReference: {fileID: 0}
-    - target: {fileID: 6306656227853433823, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 175
-      objectReference: {fileID: 0}
     - target: {fileID: 2023490595642128838, guid: 7801a01b8857a4c4ebfb29bc08a27316,
         type: 3}
       propertyPath: m_Name
       value: GameUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2023490595642128839, guid: 7801a01b8857a4c4ebfb29bc08a27316,
         type: 3}
@@ -650,26 +650,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2023490595874153188, guid: 7801a01b8857a4c4ebfb29bc08a27316,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2023490595818894218, guid: 7801a01b8857a4c4ebfb29bc08a27316,
         type: 3}
@@ -3535,6 +3515,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: PauseMenu
+      value: 
+      objectReference: {fileID: 161437787}
+    - target: {fileID: 4714591853680202933, guid: 5853a2cac1227ef408b03d9dabdf579c,
+        type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
     - target: {fileID: 4907517743103698093, guid: 5853a2cac1227ef408b03d9dabdf579c,
         type: 3}
       propertyPath: Object
@@ -3545,15 +3534,6 @@ PrefabInstance:
       propertyPath: Bar
       value: 
       objectReference: {fileID: 1222450367}
-    - target: {fileID: 0}
-      propertyPath: PauseMenu
-      value: 
-      objectReference: {fileID: 161437787}
-    - target: {fileID: 4714591853680202933, guid: 5853a2cac1227ef408b03d9dabdf579c,
-        type: 3}
-      propertyPath: m_Name
-      value: GameManager
-      objectReference: {fileID: 0}
     - target: {fileID: 4714591853680202930, guid: 5853a2cac1227ef408b03d9dabdf579c,
         type: 3}
       propertyPath: m_LocalPosition.x
